@@ -14,3 +14,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 	</aside><!-- .widget-area -->
 
 <?php endif; ?>
+
+<div id="data-hidden-px-7" style="display:none;">
+	<?php echo( $GLOBALS['Pixel_Theme']['pixel_theme_opt_checkbox'] ); ?>
+</div>
